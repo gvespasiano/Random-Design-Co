@@ -96,11 +96,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
+html{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+}
+header{
+	color:white;
+	background-color:black;
+	margin-top:0;
+	width:100%;
+}
+header h1{
+	float:left;
+	position:relative;
+	color:white;
+	background-color:black;
+	font-family: sans-serif;
+	padding:20px;
+	padding-right:20px;
+	width:100%;
+	font-size:1.3em;
+}
+#bars{
+	float:right;
+	color:white;
+	background-color:black;
+	position: absolute;
+	top:35px;
+	left:777px;
+	font-size:1.3em;
+}
+.intro{
+	clear:both;
+}
 
 
 
