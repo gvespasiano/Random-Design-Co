@@ -142,24 +142,37 @@ header h1{
 	clear:both;
 	margin-top:67px;
 	width:640px;
-    background-image: url("../img/purple-bg.jpeg");
 	background-repeat:no-repeat;
 	height:450px;
 	text-align:center;
-	background-color:red;
-	color:white;
-	line-height:.3em;
+	float:left;
+}
+.intro img{
+	position:relative;
+	object-fit:contain;
+	top:-400px;
+	left:0px;
+	z-index:-1;
 }
 .intro h2{
 	padding-top:75px;
 	padding-bottom:30px;
 	font-size:350%;
+	position:relative;
+	top:-50px;
+	line-height:.1em;
+	color:white;
+	text-align:center;
 }
 .intro a{
 	color:white;
 	font-size:150%;
 	border:solid white 2px;
 	padding:20px;
+	position:relative;
+	top:-600px;
+	left:0px;
+	margin-top:40px;
 }
 .intro a:hover{
 	background-color:white;
@@ -171,19 +184,23 @@ header h1{
 	line-height:1.75em;
 	border-bottom:1px solid #dddddd;
 	width:100%;
-	padding: 20px 0px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	padding-bottom:20px;
 	padding-left:20px;
 	width:640px;
+	position:relative;
+	top:50px;
 }
 .body2{
 	line-height:1.75em;
 	width:100%;
-	padding: 20px 0px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	padding-bottom:90px;
 	padding-left:20px;
 	width:640px;
 	margin-bottom:20px;
+	position:relative;
+	top:50px;
 }
 .body h2{
 	font-size:110%;
@@ -196,12 +213,15 @@ header h1{
 	color:black;
 	float:left;
 	position:relative;
+	object-fit:cover;
+	height:225px;
 }
 .portfolio img{
 	width:100%;
 	padding-left:2px;
 	padding-bottom:2px;
 	opacity:0.45;
+	
 }
 .portfolio h3{
 	position:absolute;
@@ -225,7 +245,8 @@ header h1{
 	clear:both;
 	border-top:1px solid #dddddd;
 	width:640px;
-	
+	position:relative;
+	top:-400px
 }
 
 
