@@ -101,42 +101,90 @@ html{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:0px;
+	box-sizing:border-box;
+	font-family:sans-serif;
+	font-size:medium;
+}
+*, *:after {
+	box-sizing:inherit;
+}
+a{
+	text-decoration: none;
 }
 header{
 	color:white;
 	background-color:black;
 	margin-top:0;
-	width:100%;
+	width:640px;
+	position: absolute;
+	font-size:1.3em;
+	top:0px;
 }
 header h1{
 	float:left;
-	position:relative;
 	color:white;
 	background-color:black;
 	font-family: sans-serif;
-	padding:20px;
-	padding-right:20px;
-	width:100%;
+	padding:0px 0px 15px 20px;
 	font-size:1.3em;
+	margin-bottom:0px;
 }
 #bars{
 	float:right;
 	color:white;
 	background-color:black;
 	position: absolute;
-	top:35px;
-	left:777px;
+	top:18px;
+	left:600px;
 	font-size:1.3em;
 }
 .intro{
 	clear:both;
+	margin-top:67px;
+	width:640px;
+    background-image: url("../img/purple-bg.jpeg");
+	background-repeat:no-repeat;
+	height:450px;
+	text-align:center;
+	background-color:red;
+	color:white;
+	line-height:.3em;
+}
+.intro h2{
+	padding-top:75px;
+	padding-bottom:30px;
+	font-size:350%;
+}
+.intro a{
+	color:white;
+	font-size:150%;
+	border:solid white 2px;
+	padding:20px;
+}
+.intro a:hover{
+	background-color:white;
+	color:purple;
+	border:solid purple 4px;
+	font-weight:bold;
+}
+.body{
+	line-height:1.75em;
+	border-bottom:1px solid #dddddd;
+	width:100%;
+	padding: 20px 0px 20px 20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	width:640px;
+}
+.body h2{
+	font-size:110%;
 }
 
-
-
-
-
-
+#footer{
+	text-align:center;
+	padding:15px 0px 15px 0px;
+	font-size:110%;
+}
 
 
 
