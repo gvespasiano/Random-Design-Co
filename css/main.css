@@ -176,14 +176,53 @@ header h1{
 	padding-left:20px;
 	width:640px;
 }
+.body2{
+	line-height:1.75em;
+	width:100%;
+	padding: 20px 0px 20px 20px;
+	padding-bottom:90px;
+	padding-left:20px;
+	width:640px;
+	margin-bottom:20px;
+}
 .body h2{
 	font-size:110%;
+}
+.portfolio{
+	width:50%;
+	color:black;
+	float:left;
+	position:relative;
+}
+.portfolio img{
+	width:100%;
+	padding-left:2px;
+	padding-bottom:2px;
+	opacity:0.45;
+}
+.portfolio h3{
+	position:absolute;
+	top:85px;
+	left:100px;
+}
+.portfolio img:hover{
+	opacity:1.0;
+}
+.portfolio a{
+	color:black;
+}
+.portfolio a:hover{
+	color:white;
 }
 
 #footer{
 	text-align:center;
 	padding:15px 0px 15px 0px;
 	font-size:110%;
+	clear:both;
+	border-top:1px solid #dddddd;
+	width:640px;
+	
 }
 
 
