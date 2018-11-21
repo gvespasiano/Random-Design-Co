@@ -114,9 +114,6 @@ h5 {
 	font-size:1em;
 	text-transform: uppercase;
 }
-img{
-	max-width:100%;
-}
 a{
 	text-decoration: none;
 }
@@ -151,32 +148,37 @@ header h1{
 	font-size:1.3em;
 }
 .introcontent{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:(-50%,-50%);
-	text-align:center;
-	line-height:1;
 }
 .intro{
-	padding:0;
+	width:100%;
+}
+.maincontent{
 	position:relative;
+	top:150px;
+}
+.intro h2{
+	position:relative;
+	top:120px;
+	color:white;
+	text-align:center;
+	font-size:350%;
+	line-height:.2em;
 }
 .intro img{
 	position:relative;
-	z-index:-10;
+	top:-200px;
+	z-index:-1;
+	width:640px;
 }
 .intro a{
 	color:white;
-	font-size:150%;
 	border:solid white 2px;
+	padding:15px;
+	font-size:50%;
+	position:relative;
+	top:32px;
 }
-.intro a:hover{
-	background-color:white;
-	color:purple;
-	border:solid purple 4px;
-	font-weight:bold;
-}
+
 .body{
 	line-height:1.75em;
 	border-bottom:1px solid #dddddd;
@@ -186,18 +188,18 @@ header h1{
 	padding-left:20px;
 	width:640px;
 	position:relative;
-	top:50px;
+	top:-200px;
 }
 .body2{
 	line-height:1.75em;
 	width:100%;
 	padding: 20px 20px 20px 20px;
-	padding-bottom:90px;
+	padding-bottom:190px;
 	padding-left:20px;
 	width:640px;
-	margin-bottom:20px;
+	margin-bottom:200px;
 	position:relative;
-	top:50px;
+	top:-200px;
 }
 .body h2{
 	font-size:110%;
@@ -242,8 +244,7 @@ header h1{
 	clear:both;
 	border-top:1px solid #dddddd;
 	width:640px;
-	position:relative;
-	top:10px
+
 }
 
 
